@@ -1,2 +1,4 @@
 config.json
+hosts.template
+elevate-win.cmd
 node_modules
