@@ -1,0 +1,91 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+# This is a divider.
+
+# Live.com
+#!(DOMAIN, PLAIN):login.live.com
+
+# Amazon S3
+#!(DOMAIN, PLAIN):s3.amazonaws.com
+
+# OneDrive
+134.170.108.26 onedrive.live.com
+134.170.108.152 skyapi.onedrive.live.com
+
+# Google Analytics
+#!(DOMAIN, PLAIN):www.google-analytics.com
+
+# Weibo
+#!(DOMAIN, PLAIN):weibo.com
+
+# Github
+#!(DOMAIN, PLAIN):github.com
+#!(DOMAIN, PLAIN):assets-cdn.github.com
+#!(DOMAIN, PLAIN):github-cloud.s3.amazonaws.com
+#!(DOMAIN, PLAIN):api.github.com
+#!(DOMAIN, PLAIN):codeload.github.com
+#!(DOMAIN, PLAIN):live.github.com
+#!(DOMAIN, PLAIN):help.github.com
+#!(DOMAIN, PLAIN):mapbox-node-binary.s3.amazonaws.com
+
+# Atlansis
+#!(DOMAIN, PLAIN):downloads.atlassian.com
+
+# Android Repository
+#!(DOMAIN, PLAIN):maven.fabric.io
+
+# NodeJs
+#!(DOMAIN, PLAIN):nodejs.org
+#!(DOMAIN, PLAIN):registry.npmjs.org
+
+# Steam
+#!(DOMAIN, PLAIN):steampowered.com
+#!(DOMAIN, PLAIN):store.steampowered.com
+#!(DOMAIN, PLAIN):steamstore-a.akamaihd.net
+#!(DOMAIN, PLAIN):steamcdn-a.akamaihd.net
+
+# Gitlab
+#!(DOMAIN, PLAIN):gitlab.com
+
+# Ads
+#!(DOMAIN, PLAIN):static.ads-twitter.com
+#!(DOMAIN, PLAIN):cm.g.doubleclick.net
+
+# Adult Only
+#!(DOMAIN, PLAIN):fulibba.net
+#!(DOMAIN, PLAIN):fuliba.net
+#!(DOMAIN, PLAIN):ccba.me
+#!(DOMAIN, PLAIN):pics.dmm.co.jp
+
+# VPS
+#!(DOMAIN, PLAIN):kiwivm.64clouds.com
+
+# Adobe Creative Cloud 
+#!(DOMAIN, PLAIN):ccmdl.adobe.com
+#!(DOMAIN, PLAIN):swupmf.adobe.com
+#!(DOMAIN, PLAIN):swupdl.adobe.com
+
+# Disqus
+#!(DOMAIN, PLAIN):referrer.disqus.com
+#!(DOMAIN, PLAIN):a.disquscdn.com

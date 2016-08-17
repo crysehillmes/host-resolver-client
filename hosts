@@ -1,0 +1,84 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+# This is a divider.
+
+# Live.com
+131.253.61.80 login.live.com
+
+# Amazon S3
+54.231.113.200 s3.amazonaws.com
+
+# OneDrive
+134.170.108.26 onedrive.live.com
+134.170.108.152 skyapi.onedrive.live.com
+
+# Google Analytics
+216.58.194.174 www.google-analytics.com
+
+# Weibo
+180.149.134.141 weibo.com
+
+# Github
+192.30.253.112 github.com
+151.101.52.133 assets-cdn.github.com
+54.231.17.73 github-cloud.s3.amazonaws.com
+192.30.253.116 api.github.com
+192.30.253.121 codeload.github.com
+192.30.253.125 live.github.com
+151.101.52.133 help.github.com
+54.231.114.154 mapbox-node-binary.s3.amazonaws.com
+
+# Android Repository
+184.73.228.91 maven.fabric.io
+
+# NodeJs
+104.20.23.46 nodejs.org
+151.101.52.162 registry.npmjs.org
+
+# Steam
+104.81.253.196 steampowered.com
+104.81.253.196 store.steampowered.com
+23.216.11.80 steamstore-a.akamaihd.net
+23.216.11.115 steamcdn-a.akamaihd.net
+
+# Gitlab
+104.210.2.228 gitlab.com
+
+# Ads
+104.244.43.176 static.ads-twitter.com
+216.58.192.2 cm.g.doubleclick.net
+
+# Adult Only
+118.192.148.55 fulibba.net
+121.29.54.44 fuliba.net
+106.187.98.89 ccba.me
+103.254.144.114 pics.dmm.co.jp
+
+# VPS
+104.25.219.22 kiwivm.64clouds.com
+
+# Adobe Creative Cloud 
+23.216.11.112 ccmdl.adobe.com
+23.54.240.189 swupmf.adobe.com
+23.216.10.195 swupdl.adobe.com

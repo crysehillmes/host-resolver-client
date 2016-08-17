@@ -1,0 +1,13 @@
+{
+    "hostsfile": "C:\\Windows\\System32\\drivers\\etc\\hosts",
+    "server": "",
+    "server_auth_token": "",
+    "host_templates": [
+        "hosts.template"
+    ],
+    "host_list": [
+        "a.com@1.1.1.1",
+        "b.net",
+        "b.net"
+    ]
+}
