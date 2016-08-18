@@ -17,7 +17,7 @@ let resolve = (options) => {
     if (options.config) {
         configPath = options.config;
     } else {
-        configPath = path.join(__dirname, 'config.json');
+        configPath = path.join(process.cwd(), 'config.json');
     }
     if (options.hostsfile) {
         hostsFilePath = options.hostsfile;
@@ -31,7 +31,7 @@ let resolve = (options) => {
     let config = require(configPath);
     let templatePath = config.host_templates[0];
     if (path.resolve(templatePath) !== path.normalize(templatePath)) {
-        templatePath = path.join(__dirname, templatePath);
+        templatePath = path.join(process.cwd(), templatePath);
     }
     let postData = { domains: [] };
     let templateReader = readline.createInterface({

@@ -1,6 +1,6 @@
 {
   "name": "host-resolver-client",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A simple tool to update your hosts file.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
